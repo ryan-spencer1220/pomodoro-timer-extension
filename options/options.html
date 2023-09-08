@@ -4,6 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pomodoro Extension Options</title>
+    <link rel="stylesheet" href="options.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Pomodor Timer Options</h1>
+    <label
+      >Default Time in Minutes (1 - 60):
+      <input
+        type="number"
+        id="time-option"
+        placeholder="Work Time"
+        min="1"
+        max="60"
+        default="25"
+      />
+    </label>
+    <button id="save-btn">Save Options</button>
+  </body>
+  <script src="options.js"></script>
 </html>
